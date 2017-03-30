@@ -1,2 +1,2 @@
-def gen_uuid:
+def gen_uuid():
     return uuid
