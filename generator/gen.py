@@ -98,7 +98,7 @@ def main():
     myOS.genJsonFile()
     myOS = CustomOS('hvm', 'Linx', 8,  64, templateName='Linx Linux')
     myOS.genJsonFile()
-    myOS = CustomOS('debian-6', 'Linx', 6,  64, templateName='Linx Linux')
+    myOS = CustomOS('hvm', 'Linx', 6,  64, templateName='Linx Linux')
     myOS.genJsonFile()
     myOS = CustomOS('hvm', 'Yinhe', 4,  64, templateName='Yinhe Kylin')
     myOS.genJsonFile()
